@@ -90,7 +90,7 @@ export async function generateTaskBreakdown(taskName, taskDescription) {
       }
     };
 
-    const apiKey = "AIzaSyBVubABDjoKpnKR_njDKckY9JnEU-ag6DI"; // Canvas will automatically provide the API key
+    const apiKey = ""; // Canvas will automatically provide the API key
     const apiUrl = `https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=${apiKey}`;
 
     const response = await fetch(apiUrl, {
