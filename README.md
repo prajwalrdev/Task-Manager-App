@@ -44,4 +44,4 @@ yarn start
 
 This will open the application in your browser, usually at http://localhost:3000.
 
-# Note: For the Gemini API calls to work outside of the Canvas environment, you would typically need to set up a proxy or a backend server to securely handle your API key, or use a client-side API key if your project's security model allows it. In this Canvas environment, the API key is automatically provided.
+Note: For the Gemini API calls to work outside of the Canvas environment, you would typically need to set up a proxy or a backend server to securely handle your API key, or use a client-side API key if your project's security model allows it. In this Canvas environment, the API key is automatically provided.
